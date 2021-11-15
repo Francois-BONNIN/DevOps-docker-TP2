@@ -31,4 +31,9 @@ CMD ["node", "src/index.js"]
 `RUN npm i -D` nous permet de d'installer uniquement les dépendances issus de packages.json.
 
 
+## 3. Lancement de l'image
+
+`docker build -t "my_super_app" .`
+`-t` nous permet de nommer notre image
+
 
